@@ -1,0 +1,42 @@
+.scrollupbutton{
+    position: fixed;
+    right: 10px;
+    bottom: 100px;
+    width: 60px;
+    height: 60px;
+    border-color: transparent;
+    border-radius: 50%;
+    background-color: #f8a338;
+}
+
+.scrollupbutton:hover,
+.scrollupbutton:focus{
+    filter: brightness(1.2);
+    outline: none;
+}
+
+.scrollupbutton::before{
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 5px;
+    height: 25px;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    background-color: #fff;
+}
+
+.scrollupbutton::after{
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 15px;
+    height: 15px;
+    transform: translate(-50%, -50%) rotate(45deg);
+    border-top: 5px solid #fff;
+    border-left: 5px solid #fff;
+}

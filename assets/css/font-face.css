@@ -1,0 +1,20 @@
+/*FONTS*/
+
+@font-face {
+    font-family: "BuyanBold";  
+    src: url("/assets/fonts/BuyanBold.ttf") format("truetype"); 
+    font-style: normal; 
+    font-weight: normal; 
+} 
+@font-face {
+    font-family: "BuyanRegular";  
+    src: url("/assets/fonts/BuyanRegular.ttf") format("truetype"); 
+    font-style: normal; 
+    font-weight: normal; 
+} 
+@font-face {
+    font-family: "BuyanThin";  
+    src: url("/assets/fonts/BuyanThin.ttf") format("truetype"); 
+    font-style: normal; 
+    font-weight: normal; 
+} 

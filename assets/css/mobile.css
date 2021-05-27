@@ -1,0 +1,56 @@
+/*PHONE-VERSION*/
+
+nav .fa{
+    display: none;
+}
+
+@media(max-width: 700px){
+    .textBox h1{
+        font-size: 30px;
+    }
+    .navigation ul li{
+        display: block;
+    }
+    .navigation{
+        position: absolute;
+        background: #f8a338;
+        height: 100vh;
+        width: 200px;
+        top:0;
+        right: -200px;
+        text-align: left;
+        z-index: 2;
+        transition: 1s;
+    }
+    nav .fa{
+        display: block;
+        color: #fff;
+        margin: 10px;
+        font-size: 22px;
+        cursor: pointer;
+    }
+    .navigation ul{
+        padding: 30px;
+    }
+}
+
+@media(max-width: 700px){
+    .row{
+        flex-direction: column;
+    }
+}
+
+@media(max-width: 700px){
+    .about h1{
+        font-size: 24px;
+    }
+}
+
+@media (max-width: 700px){
+    .form{
+        flex-direction: column;
+    }
+    .form h3{
+        font-size: 24px;
+    }
+}
